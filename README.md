@@ -5,8 +5,11 @@ services.
 
 ## Install
 
-Requires a Node.js version that supports ES2015. To install the node
-packages run:
+Requires Node.js version => 6 in oder to support ES2015. You can get
+Node.js for Debian from the [Node.js
+website](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions).
+
+To install the node packages run:
 
 ```sh
 npm install
