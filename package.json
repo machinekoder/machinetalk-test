@@ -12,7 +12,11 @@
     "dependencies": {
         "machinetalk-protobuf": "^1.0.1",
         "protobufjs": "^4.0.0",
-        "zmq": "^2.13.0"
+        "zmq": "^2.13.0",
+        "avahi-dbus": "^0.1.0",
+        "dbus-native": "^0.2.0",
+        "chai": "^3.5.0",
+        "mocha": "^2.4.5"
   }
 }
 

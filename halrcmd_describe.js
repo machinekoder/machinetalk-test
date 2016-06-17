@@ -4,10 +4,10 @@ var protobufMessage = require('machinetalk-protobuf').message;
 var Container = protobufMessage.Container;
 var ContainerType = protobufMessage.ContainerType;
 
-function socketMessageReceived(rx) {
-    rx = Container.decode(rx);
+function socketMessageReceived(address, msg) {
+    let rx = Container.decode(msg);
     console.log('received message:');
-    console.log(rx);
+    console.log(rx.type);
 }
 
 var socket = zmq.socket('router');
